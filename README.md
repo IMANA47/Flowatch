@@ -28,8 +28,8 @@ Ce projet est une application réalisée dans le cadre de mes études. Elle perm
 ### **Étapes d’installation**
 1. Cloner le repository :  
    ```bash
-   git clone https://github.com/votre-utilisateur/gestion-localisation-vehicules.git
-   cd gestion-localisation-vehicules
+   git clone https://github.com/IMANA47/VEHIWATCH.git
+   cd VEHIWATCH
    ```
 2. Installer les dépendances :  
    ```bash
