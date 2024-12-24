@@ -1,5 +1,5 @@
 # **VEHIWATCH**
-Gestion et Localisation des Véhicules
+Gestion et Localisation des flottes et objet
 
 ## **Description**
 Ce projet est une application réalisée dans le cadre de mes études. Elle permet de gérer un parc de véhicules (suivi, entretiens, conducteurs) et de localiser ces véhicules en temps réel grâce à des données GPS. Ce projet couvre toutes les étapes, de la conception à la mise en œuvre technique.
