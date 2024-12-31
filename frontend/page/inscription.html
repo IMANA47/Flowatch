@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,24 +10,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
     <title>Se connecter</title>
   </head>
   <body>
     <div class="container">
-      <img
-        src="img/mylogo.png"
-        alt="logo startup imana-47"
-        width="108px"
-        height="108px"
-      />
+
       <div class="form-box">
-        <h1>Connectez-vous à VEHIWATCH</h1>
+    <img
+ src="../img/mylogo.png" alt="logo startup imana-47" width="50px" height="50px" style="border-radius: 50px;border: 1px solid black; margin-bottom: 20px;"/>
+        <h1>Créer un compte</h1>
+           <p>Mot de passe oublié <a href="#">cliquez ici!</a></p>
         <form action="#">
           <div class="input-group">
             <div class="input-field">
               <i class="fa-solid fa-user"></i>
-              <input type="text" placeholder="Nom utilisateur" required />
+              <input type="text" placeholder="Nom" required />
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Prénom" required />
             </div>
             <div class="input-field">
               <i class="fa-solid fa-envelope"></i>
@@ -37,14 +39,13 @@
               <i class="fa-solid fa-lock"></i>
               <input type="password" placeholder="Mot de passe" required />
             </div>
+                        <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Confirmé mot de passe" required />
+            </div>
           </div>
-          <p>Mot de passe oublié <a href="#">cliquez ici!</a></p>
-          <div class="btn-field">
-            <a href="page/inscription.html"
-              ><button type="button">S'inscrire</button></a
-            >
-            <a href="page/accueil.html"
-              ><button type="button">Se connecter</button>
+          <div class="btn-field-inscription">
+            <a href="page/accueil.html" id><button type="button">Continuer</button>
             </a>
           </div>
         </form>
@@ -52,3 +53,4 @@
     </div>
   </body>
 </html>
+
