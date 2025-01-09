@@ -1,63 +1,27 @@
-# **VEHIWATCH**
-Gestion et Localisation des flottes et objet
+# Flowatch
 
-## **Description**
-Ce projet est une application réalisée dans le cadre de mes études. Elle permet de gérer un parc de véhicules (suivi, entretiens, conducteurs) et de localiser ces véhicules en temps réel grâce à des données GPS. Ce projet couvre toutes les étapes, de la conception à la mise en œuvre technique.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
-## **Objectifs**
-- Concevoir une solution complète pour la gestion et la localisation des véhicules.  
-- Appliquer les connaissances acquises dans les phases d’analyse, de conception et de développement.  
-- Renforcer mes compétences en développement Full Stack.  
+## Development server
 
-## **Fonctionnalités principales**
-- Ajout, modification, et suppression de véhicules.  
-- Suivi en temps réel des positions GPS des véhicules.  
-- Gestion des conducteurs et assignation aux véhicules.  
-- Alertes pour les entretiens ou dépassements de zones autorisées.  
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## **Technologies utilisées**
-- **Front-end** : [Angular]  
-- **Back-end** : [Node.js]  
-- **Base de données** : [en cours]  
-- **API de géolocalisation** : [en cours]  
+## Code scaffolding
 
-## **Installation et exécution**
-### **Prérequis**
-- Installer [prérequis, par ex. Angular, Node.js, Docker, etc.].  
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### **Étapes d’installation**
-1. Cloner le repository :  
-   ```bash
-   git clone https://github.com/IMANA47/VEHIWATCH.git
-   cd VEHIWATCH
-   ```
-2. Installer les dépendances :  
-   ```bash
-   npm install
-   ```
-3. Configurer les variables d'environnement :  
-   Créez un fichier `.env` et ajoutez les configurations nécessaires.  
-4. Lancer l'application :  
-   ```bash
-   npm start
-   ```
+## Build
 
-## **Mon rôle**
-J'ai réalisé ce projet seul et ai pris en charge toutes les étapes :  
-- Analyse des besoins.  
-- Conception UML (cas d’utilisation, diagrammes de classe, séquence, etc.).  
-- Développement front-end et back-end.  
-- Tests et débogage.  
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## **Progrès et étapes**
-- **Phase 1** : Analyse et conception [✓]  
-- **Phase 2** : Développement du back-end [en cours]  
-- **Phase 3** : Développement du front-end [en cours]  
-- **Phase 4** : Tests unitaires et déploiement [en cours].  
+## Running unit tests
 
-## **Aperçu du projet**
-*(Insérez des captures d’écran ou des GIFs montrant l’application si possible)*
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## **Auteur**
-[François Nsengimana profil GitHub/LinkedIn]  
-Projet réalisé dans le cadre de ma formation en développement Full Stack.
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

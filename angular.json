@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "VEHIWATCH": {
+    "Flowatch": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/vehiwatch",
+            "outputPath": "dist/flowatch",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "VEHIWATCH:build:production"
+              "browserTarget": "Flowatch:build:production"
             },
             "development": {
-              "browserTarget": "VEHIWATCH:build:development"
+              "browserTarget": "Flowatch:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "VEHIWATCH:build"
+            "browserTarget": "Flowatch:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "79d68bbd-ef98-4bb0-a0bc-c68d8dd9fa9d"
+    "analytics": "b47147a4-961d-4b5c-b9a9-c15b8ce88ea0"
   }
 }
