@@ -1,6 +1,7 @@
-app-header{
-    display: block;
-}
-app-side-bar{
-    display: block;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
