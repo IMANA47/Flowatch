@@ -68,10 +68,10 @@ J'ai réalisé ce projet seul et ai pris en charge toutes les étapes :
 
 ## **Aperçu du projet**
 
-_(Insérez des captures d’écran ou des GIFs montrant l’application si possible)_
+_(Capture en image de l'application)
 ![Page d'accueil](assets/capture_app/Capture1.PNG)
 
 ## **Auteur**
 
-[François Nsengimana profil GitHub/LinkedIn]  
+[François Nsengimana]  
 Projet réalisé dans le cadre de ma formation en développement Full Stack.
