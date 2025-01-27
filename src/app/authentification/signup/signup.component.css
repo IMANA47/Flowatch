@@ -1,0 +1,53 @@
+  .form-box{
+    width: 90%;
+    height: 90%;
+    max-width: 430px;
+    max-height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 40px 50px 60px;
+    text-align: center;
+    align-content: center;
+    border: 2px black solid; 
+    border-radius: 20px
+  }
+  .form-box h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #232323;
+    position: relative;
+  }
+  .input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+  input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+  }
+  .input-field i{
+   margin-left: 15px;
+    color: #232323;
+  }
+  .btn-field-inscription a ,button{
+    width: 100%;
+    margin-top: 8px;
+    background: #0C08F6;
+    color: #fff;
+    font-size: 28px;
+    height: 45px;
+    border-radius: 10px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    transform: background 1s;
+  }  

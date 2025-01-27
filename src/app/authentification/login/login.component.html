@@ -1,1 +1,31 @@
-<p>login works!</p>
+<div class="form-box">
+  <img
+    src="../assets/Flowatch.png"
+    alt="logo de l'application Flowatch"
+    width="90px"
+    height="90px"
+    style="border-radius: 10px; margin-bottom: 20px"
+  />
+  <h1>Connectez-vous à Flowatch</h1>
+  <form action="#">
+    <div class="input">
+      <div class="input-field">
+        <i class="bi bi-person-circle"></i>
+        <input type="text" placeholder="Nom utilisateur" required />
+      </div>
+      <div class="input-field">
+        <i class="bi bi-envelope-at-fill"></i>
+        <input type="email" placeholder="Email" required />
+      </div>
+      <div class="input-field">
+        <i class="bi bi-lock-fill"></i>
+        <input type="password" placeholder="Mot de passe" required />
+      </div>
+    </div>
+    <p>Mot de passe oublié <a href="#">cliquez ici!</a></p>
+    <div class="btn-field">
+      <a routerLink="/signup"><button type="button">S'inscrire</button></a>
+      <a routerLink="/main"><button type="button">Se connecter</button> </a>
+    </div>
+  </form>
+</div>

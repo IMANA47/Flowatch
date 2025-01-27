@@ -1,1 +1,40 @@
-<p>signup works!</p>
+<div class="container">
+  <div class="form-box">
+    <img
+      src="../assets/Flowatch.png"
+      alt="logo startup imana-47"
+      width="60px"
+      height="60px"
+      style="border-radius: 5px; margin-bottom: 20px"
+    />
+    <h1>Créer un compte</h1>
+    <p>Mot de passe oublié <a href="#">cliquez ici!</a></p>
+    <form action="#">
+      <div class="input">
+        <div class="input-field">
+          <i class="bi bi-person-circle"></i>
+          <input type="text" placeholder="Nom" required />
+        </div>
+        <div class="input-field">
+          <i class="bi bi-person-circle"></i>
+          <input type="text" placeholder="Prénom" required />
+        </div>
+        <div class="input-field">
+          <i class="bi bi-envelope-at-fill"></i>
+          <input type="email" placeholder="Email" required />
+        </div>
+        <div class="input-field">
+          <i class="bi bi-lock-fill"></i>
+          <input type="password" placeholder="Mot de passe" required />
+        </div>
+        <div class="input-field">
+          <i class="bi bi-file-lock-fill"></i>
+          <input type="password" placeholder="Confirmé mot de passe" required />
+        </div>
+      </div>
+      <div class="btn-field-inscription">
+        <a routerLink="/main"><button type="button">Continuer</button> </a>
+      </div>
+    </form>
+  </div>
+</div>

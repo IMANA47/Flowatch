@@ -10,11 +10,13 @@ import { ParametreComponent } from './main/parametre/parametre.component';
 import { AuthentificationComponent } from './authentification/authentification.component';
 import { LoginComponent } from './authentification/login/login.component';
 import { SignupComponent } from './authentification/signup/signup.component';
+import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
-  { path: 'authentification', component: AuthentificationComponent },
+  { path: '', component: AuthentificationComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
+  { path: 'main', component: MainComponent },
   { path: 'acceuil', component: AcceuilComponent },
   { path: 'localisation', component: LocalisationComponent },
   { path: 'compte', component: CompteComponent },

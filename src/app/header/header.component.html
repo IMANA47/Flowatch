@@ -1,19 +1,99 @@
 <nav class="navbar">
   <div class="logo">
-    <img src="../assets/Flowatch.png" alt="logo flowatch" width="35" height="35" />
+    <img
+      src="../assets/Flowatch.png"
+      alt="logo flowatch"
+      width="35"
+      height="35"
+    />
     <span
       ><li><a href="">Flowatch</a></li></span
     >
   </div>
   <div class="navbar-icon">
-    <span
-      ><li><a href="">No</a></li></span
-    >
-    <span
-      ><li><a href="">P</a></li></span
-    >
-    <span
-      ><li><a href="">D</a></li></span
-    >
+    <span><i class="bi bi-bell-fill"></i></span>
+    <span>
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle"
+          href="#"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="color: white"
+        >
+          <i class="bi bi-person-circle"></i>
+        </a>
+        <form class="dropdown-menu p-4" style="width: 280px">
+          <div class="mb-2">
+            <label for="nom" class="form-label">Nom</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nom"
+              placeholder="WIlliam Jean"
+              style="
+                width: 230px;
+                height: 45px;
+                background: #f0efef;
+                background-blend-mode: normal;
+                border-radius: none;
+              "
+            />
+          </div>
+          <div class="mb-2">
+            <label for="info" class="form-label">Info</label>
+            <input
+              type="text"
+              class="form-control"
+              id="info"
+              placeholder="Administrateur"
+              style="
+                width: 230px;
+                height: 45px;
+                background: #f0efef;
+                background-blend-mode: normal;
+                border-radius: none;
+              "
+            />
+          </div>
+          <div class="mb-3">
+            <label for="numero-telephone" class="form-label">Téléphone</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="numero-telephone"
+              placeholder="+242 06-90-00-45-64"
+              style="
+                width: 230px;
+                height: 45px;
+                background: #f0efef;
+                background-blend-mode: normal;
+                border-radius: none;
+              "
+            />
+          </div>
+        </form>
+      </div>
+    </span>
+    <div class="dropdown">
+      <a
+        class="dropdown-toggle"
+        href="#"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        style="color: white"
+      >
+        <i class="bi bi-box-arrow-in-right"></i>
+      </a>
+
+      <ul class="dropdown-menu">
+        <li>
+          <a class="dropdown-item" href="#" type="button"> Se connecter</a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="#" type="button">Se deconnecter</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
