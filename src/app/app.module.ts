@@ -16,6 +16,7 @@ import { AuthentificationComponent } from './authentification/authentification.c
 import { LoginComponent } from './authentification/login/login.component';
 import { SignupComponent } from './authentification/signup/signup.component';
 import { MainComponent } from './main/main.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MainComponent } from './main/main.component';
     LoginComponent,
     SignupComponent,
     MainComponent,
+    UserComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

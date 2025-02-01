@@ -11,6 +11,7 @@ import { AuthentificationComponent } from './authentification/authentification.c
 import { LoginComponent } from './authentification/login/login.component';
 import { SignupComponent } from './authentification/signup/signup.component';
 import { MainComponent } from './main/main.component';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   { path: '', component: AuthentificationComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'finance', component: FinanceComponent },
   { path: 'messagerie', component: MessagerieComponent },
   { path: 'parametre', component: ParametreComponent },
+  { path: 'user', component: UserComponent },
 ];
 
 @NgModule({
