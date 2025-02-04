@@ -1,9 +1,8 @@
 # Pour Build de l'application 
-FROM node:18 AS build-stage
+FROM node:18 AS build-sta
 
 # Définir le répertoire de travail
 WORKDIR /app
-
 # Copier les fichiers nécessaires
 COPY package*.json ./
 

@@ -11,24 +11,25 @@ nav {
 .logo {
   display: flex;
   align-items: center;
+  padding: 0.938rem 0.938rem 0.938rem;
   gap: 8px;
+  cursor: pointer;
 }
-.logo span li a {
+.logo img {
+  border-radius: 0.313rem;
+  padding: 0.313rem;
+  border: none;
+}
+.logo-text {
   color: white;
-  list-style: none;
-  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .navbar-icon {
   display: flex;
-  gap: 25px;
+  gap: 20px;
 }
 .navbar-icon span li a {
   color: white;
-  list-style: none;
-  text-decoration: none;
 }
-i {
-  color: white;
-}
-

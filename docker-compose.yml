@@ -1,7 +1,7 @@
-version: '3'
+version: "3"
 services:
   angular-app:
-    image: nsengimana47/flowatch:latest  # Remplace avec ton image Docker
+    image: nsengimana47/flowatch:latest
     ports:
-      - "4200:80"  # Redirige le port 4200 vers 80 du conteneur
-    restart: always  # Redémarre automatiquement si le conteneur s’arrête
+      - "4200:80" # Redirige le port 4200 vers 80 du conteneur
+    restart: always # Redémarre automatiquement si le conteneur s’arrête
