@@ -102,3 +102,59 @@ hr{
     margin: 5px auto;
     width: 60% ;
 }
+.chat-bubble{
+    padding: 10px 14px;
+    background: #eee;
+    margin: 10px;
+    border-radius: 9px;
+    position: relative;
+    animation: fadeIn 1s ease-in;
+    &--blue{
+        background: $blue;
+        color: #fff;
+    }
+    &:after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-bottom: 0;
+        margin-top: -10px;
+    }
+    &--left{
+        &:after{
+            left: 0;
+            border-right-color:  #eee;
+            border-left: 0;
+            margin-left: -20px; 
+        }
+     }
+     &--right{
+        &:after{
+            right: 0;
+            border-right-color:  &blue;
+            border-right: 0;
+            margin-right: -20px; 
+        }
+     }
+}
+.chat-box-tray{
+    background: #eee;
+    display: flex;
+    align-items: baseline;
+    padding: 10px 15px;
+    margin-top: 19px;
+
+input{
+    margin: 0 10px;
+    padding: 6px 2px;
+}
+i{
+    color: grey;
+    font-size: 30px;
+    vertical-align: middle;
+
+}
+}
