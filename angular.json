@@ -32,6 +32,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/Flowatch/",
               "budgets": [
                 {
                   "type": "initial",

@@ -1,0 +1,159 @@
+* {
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+.container {
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 7px;
+}
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.settings-tray {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 7px;
+  i {
+    margin: 10px;
+    font-size: 25px;
+    color: grey;
+
+    &:hover {
+      color: #74b9ff;
+      cursor: pointer;
+    }
+  }
+}
+
+.search-box {
+  background: #f0efef;
+  padding: 10px 13px;
+
+  .input-wrapper {
+    background: #f0efef;
+    border-radius: 40px;
+
+    i {
+      color: grey;
+      vertical-align: middle;
+      margin-left: 7px;
+    }
+  }
+}
+input {
+  background: #f0efef;
+  border: none;
+  border-radius: 40px;
+  width: 90%;
+  &::placeholder {
+    color: #e3e3e3;
+    font-size: 300;
+    margin-left: 20px;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.friend-drawer {
+  padding: 10px 15px;
+  display: flex;
+  vertical-align: baseline;
+  background: white;
+  transition: 0.3s ease;
+
+  & {
+    background: #ffffff;
+  }
+  .text {
+    margin-left: 12px;
+    width: 70%;
+    h6 {
+      margin-top: 6px;
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  .time {
+    color: #0b207c;
+    font-weight: 540;
+  }
+  &:hover {
+    background: rgb(236, 236, 236);
+    cursor: pointer;
+
+    p,
+    h6 {
+      color: black;
+    }
+  }
+}
+hr {
+  margin: 5px auto;
+  width: 60%;
+}
+.chat-bubble {
+  padding: 10px 14px;
+  background: #eee;
+  margin: 10px;
+  border-radius: 9px;
+  position: relative;
+  animation: fadeIn 1s ease-in;
+  p {
+    background: blue;
+    color: #fff;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 0;
+    margin-top: -10px;
+  }
+  & {
+    &:after {
+      left: 0;
+      border-right-color: #eee;
+      border-left: 0;
+      margin-left: -20px;
+    }
+  }
+  & {
+    &:after {
+      right: 0;
+      border-right-color: blue;
+      border-right: 0;
+      margin-right: -20px;
+    }
+  }
+}
+.chat-box-tray {
+  background: #fff;
+  display: flex;
+  align-items: baseline;
+  padding: 10px 15px;
+  margin-top: 19px;
+  border: black solid 2px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+
+  input {
+    margin: 0 10px;
+    padding: 6px 2px;
+  }
+  i {
+    color: rgb(37, 37, 37);
+    font-size: 30px;
+    vertical-align: middle;
+  }
+}

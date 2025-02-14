@@ -3,20 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { SideBarComponent } from './side-bar/side-bar.component';
-import { AcceuilComponent } from './main/acceuil/acceuil.component';
-import { LocalisationComponent } from './main/localisation/localisation.component';
-import { CompteComponent } from './main/compte/compte.component';
-import { FlotteComponent } from './main/flotte/flotte.component';
-import { FinanceComponent } from './main/finance/finance.component';
-import { MessagerieComponent } from './main/messagerie/messagerie.component';
-import { ParametreComponent } from './main/parametre/parametre.component';
+import { HeaderComponent } from './admin/component/header/header.component';
+import { SideBarComponent } from './admin/component/side-bar/side-bar.component';
+import { AcceuilComponent } from './admin/component/acceuil/acceuil.component';
+import { LocalisationComponent } from './admin/component/localisation/localisation.component';
+import { CompteComponent } from './admin/component/compte/compte.component';
+import { FlotteComponent } from './admin/component/flotte/flotte.component';
+import { FinanceComponent } from './admin/component/finance/finance.component';
+import { MessagerieComponent } from './admin/component/messagerie/messagerie.component';
+import { ParametreComponent } from './admin/component/parametre/parametre.component';
 import { AuthentificationComponent } from './authentification/authentification.component';
 import { LoginComponent } from './authentification/login/login.component';
 import { SignupComponent } from './authentification/signup/signup.component';
-import { MainComponent } from './main/main.component';
-import { UserComponent } from './user/user.component';
+import { AdminComponent } from './admin/admin.component';
+import { UtilisateurComponent } from './utilisateur/utilisateur.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +33,8 @@ import { UserComponent } from './user/user.component';
     AuthentificationComponent,
     LoginComponent,
     SignupComponent,
-    MainComponent,
-    UserComponent,
+    AdminComponent,
+    UtilisateurComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
