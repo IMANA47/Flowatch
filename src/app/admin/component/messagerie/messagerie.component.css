@@ -33,6 +33,7 @@
 .search-box {
   background: #f0efef;
   padding: 10px 13px;
+  border-radius: 10px;
 
   .input-wrapper {
     background: #f0efef;
