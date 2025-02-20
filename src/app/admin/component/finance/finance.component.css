@@ -1,0 +1,35 @@
+.parti-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 10px;
+  justify-items: end;
+  margin: 20px 20px;
+}
+.box-1 {
+  width: 250px;
+  height: 140px;
+}
+.vair {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 8px;
+  color: white;
+  font-family: Raleway;
+  width: 250px;
+  height: 110px;
+}
+.plus {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 8px;
+  color: white;
+  opacity: 68%;
+  width: 250px;
+  height: 32px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}

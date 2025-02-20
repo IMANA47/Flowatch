@@ -17,6 +17,7 @@ import { LoginComponent } from './authentification/login/login.component';
 import { SignupComponent } from './authentification/signup/signup.component';
 import { AdminComponent } from './admin/admin.component';
 import { UtilisateurComponent } from './utilisateur/utilisateur.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { UtilisateurComponent } from './utilisateur/utilisateur.component';
     AdminComponent,
     UtilisateurComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

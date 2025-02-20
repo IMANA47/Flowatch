@@ -11,20 +11,22 @@ import { AuthentificationComponent } from './authentification/authentification.c
 import { LoginComponent } from './authentification/login/login.component';
 import { SignupComponent } from './authentification/signup/signup.component';
 import { AdminComponent } from './admin/admin.component';
-import { UtilisateurComponent} from './utilisateur/utilisateur.component';
+import { UtilisateurComponent } from './utilisateur/utilisateur.component';
 
 const routes: Routes = [
   { path: '', component: AuthentificationComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
-  { path: 'admin', component: AdminComponent },
-  { path: 'acceuil', component: AcceuilComponent },
-  { path: 'localisation', component: LocalisationComponent },
-  { path: 'compte', component: CompteComponent },
-  { path: 'flotte', component: FlotteComponent },
-  { path: 'finance', component: FinanceComponent },
-  { path: 'messagerie', component: MessagerieComponent },
-  { path: 'parametre', component: ParametreComponent },
+  {
+    path: 'admin',
+    component: AdminComponent },
+      { path: 'acceuil', component: AcceuilComponent },
+      { path: 'localisation', component: LocalisationComponent },
+      { path: 'compte', component: CompteComponent },
+      { path: 'flotte', component: FlotteComponent },
+      { path: 'finance', component: FinanceComponent },
+      { path: 'messagerie', component: MessagerieComponent },
+      { path: 'parametre', component: ParametreComponent }, 
   { path: 'utilisateur', component: UtilisateurComponent },
 ];
 
